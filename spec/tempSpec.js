@@ -19,7 +19,7 @@ describe('Temperature', function() {
     expect(temp.down()).toEqual(19)
   });
 
-  it('has a minimum value of 10 degrees', function() {
+  it('has a minimum value set at 10 degrees', function() {
     expect(temp.minTemp).toEqual(10)
   });
 });
