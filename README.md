@@ -20,15 +20,15 @@ I want the thermostat to start at 20 degrees</br>
 So that I can adjust the temperature accordingly.</br>
 
 - As a user</br>
-I want to be able to increase the temperature up</br>
+I want to be able to increase the temperature</br>
 So that I can warm up when the weather is colder.</br>
 
 - As a user</br>
-I want to be able to decrease the temperature</br> 
+I want to be able to decrease the temperature</br>
 So that I can cool down when the weather gets hot.</br>
 
 - As a user</br>
-I want the minimum temperature to be set at 10 degrees</br> 
+I want the minimum temperature to be set at 10 degrees</br>
 So that it doesn’t get too cold.</br>
 
 - As a user</br>
@@ -40,15 +40,15 @@ I want the power saving mode to be on by default</br>
 So that I can be green!</br>
 
 - As a user</br>
-whilst the power saving mode is on, I want the Max temperature to be 25 degrees</br> 
+whilst the power saving mode is on, I want the Max temperature to be 25 degrees</br>
 So that I can reduce my energy usage.</br>
 
 - As a user</br>
-I want to be able to turn the power saving mood off</br> 
+I want to be able to turn the power saving mode off</br> 
 So that I can utilise more energy.</br>
 
 - As a user</br>
-whilst the power saving mode is off, I want the Max temperature to be 32 degrees</br> 
+whilst the power saving mode is off, I want the Max temperature to be 32 degrees</br>
 So that I can have access to higher temperatures when needed.</br>
 
 - As a user</br>
