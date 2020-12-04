@@ -8,6 +8,6 @@ describe('Power saving', function() {
   });
 
   it('defaults to ON', function() {
-    expect(powerSaving.mode).toBe(on);
+    expect(powerSaving.mode).toBe('ON');
   });
 });
