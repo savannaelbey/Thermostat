@@ -1,7 +1,15 @@
 'use strict';
 
 class PowerSaving {
-  constructor() {
-    this.mode = 'ON'
+  constructor(mode = 'ON') {
+    this.mode = mode
+  }
+
+  turnOff() {
+    return this.mode = 'OFF'
+  }
+
+  turnOn() {
+    return this.mode = 'ON'
   }
 }
