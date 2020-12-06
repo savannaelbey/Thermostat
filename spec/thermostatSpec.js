@@ -67,4 +67,25 @@ describe('Thermostat', function() {
     thermostat.reset();
     expect(thermostat.temp).toEqual(20);
   });
+
+  describe('can display current energy usage', function() {
+    it('when the temperature is < 18 it displays low-usage',function() {
+      for (var i = 0; i < 3; i++) {
+        thermostat.decreaseTemp();
+      }
+      expect(thermostat.currentEnergyUsage()).toBe('Low-usage')
+    });
+
+    it('when the temperature is between 18-25 it displays medium-usage',function() {
+      expect(thermostat.currentEnergyUsage()).toBe('Medium-usage')
+    });
+
+    it('when the temperature is > 25 it displays High-usage',function() {
+      thermostat.turnPsmOff()
+      for (var i = 0; i < 6; i++) {
+        thermostat.increaseTemp();
+      }
+      expect(thermostat.currentEnergyUsage()).toBe('High-usage')
+    });
+  });
 });
