@@ -1,5 +1,7 @@
 # Thermostat
 
+Project incomplete.
+
 ## Specifications:
 
 - Thermostat starts at 20 degrees</br>
@@ -58,3 +60,8 @@ So that I can re-program my thermostat with ease.</br>
 - As a user</br>
 I want to be able to know my current energy usage (low, medium or high)</br>
 So that I can manage my energy usage properly.</br>
+
+
+
+<img width="843" alt="Screenshot 2020-12-06 at 16 57 56" src="https://user-images.githubusercontent.com/71889577/101286752-3bc88400-37e4-11eb-84e7-1597827e756d.png">
+
